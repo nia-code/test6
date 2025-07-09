@@ -18,7 +18,6 @@
 - Add DELETE/PUT to `/items/:id`
 - Add more robust validation (e.g., Joi or zod)
 - Refactor error handling into centralized middleware
-- Make writes concurrency-safe or migrate to lowdb/SQLite
 
 ## Frontend Design
 
@@ -51,5 +50,3 @@ The frontend is a React SPA built using:
 - Add more tests (form validation, error messages).
 - Convert styles to CSS modules or Tailwind.
 - Add 404 or error fallback UI for detail pages.
-- Improve accessibility (ARIA roles, focus states).
-- Debounce the search input.
