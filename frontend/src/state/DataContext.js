@@ -11,7 +11,7 @@ export function DataProvider({ children }) {
     async ({ page = 1, limit = 5, q = "" } = {}, signal) => {
       setLoading(true);
       try {
-        const url = new URL("http://localhost:3001/api/items");
+        const url = new URL(`${process.env.BASE_URL}/items`);
         url.searchParams.append("page", page);
         url.searchParams.append("limit", limit);
         if (q) url.searchParams.append("q", q);
