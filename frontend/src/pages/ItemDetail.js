@@ -12,7 +12,7 @@ function ItemDetail() {
   useEffect(() => {
     if (id) {
       setLoading(true);
-      fetch("http://localhost:3001/api/items/" + id)
+      fetch(`${process.env.BASE_URL}/items/` + id)
         .then((res) => (res.ok ? res.json() : Promise.reject(res)))
         .then((res) => {
           console.log(res);
