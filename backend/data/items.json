@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 2499
+  },
+  {
+    "id": 2,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 399
+  },
+  {
+    "id": 3,
+    "name": "Ultra‑Wide Monitor",
+    "category": "Electronics",
+    "price": 999
+  },
+  {
+    "id": 4,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 799
+  },
+  {
+    "id": 5,
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 1199
+  },
+  {
+    "id": 1752015773761,
+    "name": "Iphone 12",
+    "category": "Smart Phone",
+    "price": 2000
+  },
+  {
+    "id": 1752016041671,
+    "name": "Tablet",
+    "category": "Smart Phone",
+    "price": 3000
+  },
+  {
+    "id": 1752017916646,
+    "name": "Test Product",
+    "category": "Test Category",
+    "price": 1234
+  }
+]
