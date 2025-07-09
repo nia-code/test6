@@ -20,7 +20,7 @@ const Upload = () => {
     };
 
     try {
-      const response = await fetch("http://localhost:3001/api/items", {
+      const response = await fetch(`${process.env.BASE_URL}/items`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
